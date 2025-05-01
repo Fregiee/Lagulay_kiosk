@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lagulay Kiosk</title>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  
+</head>
+<body>
+
+  <div class="menu">
+    <h2>Menu</h2>
+    <button data-name="Burger" data-price="5.00">Burger - $5.00</button>
+    <button data-name="Fries" data-price="2.50">Fries - $2.50</button>
+    <button data-name="Soda" data-price="1.50">Soda - $1.50</button>
+    <button data-name="Hotdog" data-price="3.00">Hotdog - $3.00</button>
+  </div>
+
+  <div class="cart">
+    <h2>Cart</h2>
+    <ul class="cart-items"></ul>
+    <strong>Total: $<span id="total">0.00</span></strong><br><br>
+    <button id="finalize">Finalize Order</button>
+  </div>
+
+  <div class="receipt">
+    <h2>Receipt</h2>
+    <div id="receipt">no order yet</div>
+  </div>
+
+  
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="style.css">
+</body>
+</html>

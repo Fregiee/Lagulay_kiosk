@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff8f0;
+    padding: 20px;
+    color: #333;
+}
+
+h2 {
+    margin-top: 0;
+    color: #d1001c; 
+}
+
+.menu, .cart, .receipt {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ffd600; 
+}
+
+.menu button {
+    margin: 8px;
+    padding: 12px 20px;
+    background-color: #ffd600;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.menu button:hover {
+    background-color: #ffcc00;
+}
+
+.cart-items {
+    list-style: none;
+    padding-left: 0;
+}
+
+.cart-items li {
+    margin-bottom: 5px;
+}
+
+#receipt {
+    white-space: pre-wrap;
+    font-family: 'Courier New', Courier, monospace;
+    background: #fff3cd;
+    padding: 12px;
+    border-left: 5px solid #d1001c;
+}
+
+button#finalize {
+    background-color: #d1001c;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button#finalize:hover {
+    background-color: #a80016;
+}
